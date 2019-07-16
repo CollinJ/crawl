@@ -569,6 +569,7 @@ bool melee_attack::handle_phase_damaged()
                      atk_name(DESC_ITS).c_str(),
                      attack_strength_punctuation(damage_done).c_str());
             }
+            count_action(CACT_BLOCK, -1, BLOCK_SHROUD);
             did_hit = false;
             damage_done = 0;
 

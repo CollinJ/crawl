@@ -69,6 +69,7 @@ enum dodge_type    // subtype for counted actions
 enum block_type    // auxtype for counted actions
 {
     BLOCK_OTHER,
+    BLOCK_SHROUD,
     BLOCK_REFLECT,
     NUM_BLOCKS
 };
